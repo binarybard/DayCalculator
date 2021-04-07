@@ -1,0 +1,48 @@
+* {
+  color: #333333;
+}
+p {
+  margin-bottom: 1px;
+}
+.photos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; /* 가로 정렬 */
+  align-items: center; /* 세로 정렬 */
+}
+#ataho {
+  width:150px;
+  height:150px;
+  object-fit:cover; /* 내용이 종횡비를 유지하면서 정의된 너비와 높이를 가득 채울때까지 확대 */  
+  border-radius:50%; 
+  margin-right: 30px;
+}
+#woman {
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 30px;
+}
+#heart {
+  width:50px;
+  height:50px;
+}
+.gray {
+  color: #a0a0a0;
+}
+.special-day {
+  display: flex;
+  justify-content: space-between; /* 양끝에 배치 */
+}
+.title {
+  display: flex;
+  align-items: center;  /* 수직 가운데 */
+}
+.days-left {
+  text-align: right;
+}
+.date {
+  text-align: right;
+  color: #a0a0a0;
+}
